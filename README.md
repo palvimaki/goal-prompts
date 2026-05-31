@@ -13,6 +13,9 @@ advice.
 - **[codex-history-browser.md](codex-history-browser.md)** - build or find a
   safe way to browse and search all locally available Codex chat/session
   history, beyond a short sidebar limit.
+- **[deskgrid-window-tiler.md](deskgrid-window-tiler.md)** - build a
+  local-first, OS-adaptive window tiling app with smart arrange, saved desks,
+  and a non-technical launch shortcut.
 - **[prompt-publish.md](prompt-publish.md)** - a portable skill specification
   for turning private/local goal prompts into public-safe prompt files and
   publishing them to a prompt repository.
