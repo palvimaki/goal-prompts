@@ -2,9 +2,11 @@
 
 Copy the prompt below into a frontier-level coding agent. It is written to be
 portable across operating systems, host environments, and implementation stacks.
+For Codex, prefix the first instruction with `/goal` if you want Codex goal
+mode. For other agents, paste it as-is.
 
 ````markdown
-/goal Build a complete local-first window tiling app, called DeskGrid unless the user prefers another name, that gives the user one fast "make my desk usable" action.
+Your goal is to build a complete local-first window tiling app, called DeskGrid unless the user prefers another name, that gives the user one fast "make my desk usable" action.
 
 You are a frontier-level coding agent working on the user's own computer. Build the actual app, not just a plan. Adapt the implementation to the user's operating system, installed tools, display setup, app habits, accessibility permissions, and tolerance for setup. Keep it small, local, reversible, and pleasant.
 

@@ -1,7 +1,7 @@
 # goal-prompts
 
-Portable, paste-ready `/goal` prompts and prompt-publishing workflows for
-Codex and other autonomous coding agents.
+Portable, paste-ready goal prompts and prompt-publishing workflows for Codex
+and other autonomous coding agents.
 
 These prompts are written as execution contracts: they define the mission,
 scope, non-scope, operating rules, verification requirements, and completion
@@ -31,16 +31,17 @@ These are public-safe prompt specifications, not private workflows. They:
 - prefer reversible, local, read-only discovery before changes;
 - require backups before touching application state;
 - define evidence-based completion criteria;
-- can be pasted into Codex as-is, then adapted by the executing agent to the
-  user's current environment.
+- can be pasted into a coding agent as-is, then adapted by the executing agent
+  to the user's current environment.
 
 ## How to use
 
-Open a prompt file, copy the Markdown block that begins with `/goal`, and paste
-it into Codex.
+Open a prompt file, copy the Markdown block, and paste it into your coding
+agent.
 
-If your agent does not support `/goal`, paste the body of the prompt as a normal
-instruction and keep the same completion criteria.
+If you are using Codex and want Codex goal mode, prefix the first instruction
+with `/goal`. For other agents, paste the prompt as a normal instruction and
+keep the same completion criteria.
 
 ## Contributing
 
